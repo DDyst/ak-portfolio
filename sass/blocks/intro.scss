@@ -1,0 +1,38 @@
+.intro {
+	padding: 20px 0;
+}
+
+.intro__container {
+  @include layout-positioner;
+}
+
+.intro__img-container {
+  width: 280px;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 0 2px $violet;
+}
+
+.intro__img-container img {
+  @include image;
+}
+
+@media (min-width: $tablet-width) {
+  .intro {
+    padding: 30px 0;
+  }
+
+  .intro__img-container {
+    width: 440px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .intro {
+    padding: 40px 0;
+  }
+
+  .intro__img-container {
+    margin-bottom: 40px;
+  }
+}

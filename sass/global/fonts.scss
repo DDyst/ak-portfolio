@@ -1,16 +1,17 @@
 @font-face {
-  font-family: "Black Ops One";
+  font-family: "Cormorant Unicase";
   src:
-    local("Black Ops One"),
-    local("BlackOpsOne-Regular"),
-    url("../fonts/BlackOpsOne-Regular.woff2") format("woff2"),
-    url("../fonts/BlackOpsOne-Regular.woff") format("woff");
+    local("Cormorant Unicase Regular"),
+    local("CormorantUnicase-Regular"),
+    url("../fonts/CormorantUnicase-Regular.woff2") format("woff2"),
+    url("../fonts/CormorantUnicase-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Open Sans";
   src:
     local("Open Sans"),
+    local("OpenSans"),
     url("../fonts/opensans.woff2") format("woff2"),
     url("../fonts/opensans.woff") format("woff");
 }
@@ -19,6 +20,7 @@
   font-family: "Open Sans Bold";
   src:
     local("Open Sans Bold"),
+    local("OpenSans-Bold"),
     url("../fonts/opensansbold.woff2") format("woff2"),
     url("../fonts/opensansbold.woff") format("woff");
 }

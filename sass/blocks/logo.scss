@@ -1,0 +1,43 @@
+.logo__link {
+  display: block;
+  padding-top: 19px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "Cormorant Unicase", "Times", serif;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+  color: $pink;
+  background: $violet;
+  user-select: none;
+  &:not(&--current) {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .logo__link {
+    padding-top: 28px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo__link {
+    padding-top: 36px;
+    padding-bottom: 40px;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 32px;
+  }
+}
