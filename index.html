@@ -9,24 +9,28 @@
   </head>
   <body class="page">
     <header class="page-header">
-      <div class="logo  page-header__logo"><a class="logo__link  logo__link--current">Анастасия К.</a></div>
+      <div class="logo"><a class="logo__link  logo__link--current">Анастасия К.</a></div>
     </header>
 
     <main class="intro">
       <div class="intro__container">
         <div class="intro__img-container">
           <picture>
-            <source media="(min-width: 660px)" srcset="img/photo-tablet@1x.jpg 1x, img/photo-tablet@2x.jpg 2x">
-            <img src="img/photo-mobile@1x.jpg" srcset="img/photo-mobile@2x.jpg 2x" alt="Моя фотография">
+            <source media="(min-width: 660px)" srcset="img/photo-intro-tablet@1x.jpg 1x, img/photo-intro-tablet@2x.jpg 2x">
+            <img src="img/photo-intro-mobile@1x.jpg" srcset="img/photo-intro-mobile@2x.jpg 2x" alt="Моя фотография">
           </picture>
         </div>
-        <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Обо мне</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Мои работы</a></li>
-          </ul>
-        </nav>
       </div>
     </main>
+
+    <footer class="page-footer">
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main-nav__link" href="about.html">Обо мне</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">Мои работы</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/picturefill.min.js"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 .intro {
-	padding: 20px 0;
+	padding-top: 20px;
 }
 
 .intro__container {
@@ -8,7 +8,7 @@
 
 .intro__img-container {
   width: 280px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto;
   box-shadow: 0 0 2px $violet;
 }
 
@@ -18,21 +18,17 @@
 
 @media (min-width: $tablet-width) {
   .intro {
-    padding: 30px 0;
+    padding-top: 30px;
   }
 
   .intro__img-container {
     width: 440px;
-    margin-bottom: 30px;
+    box-shadow: 0 0 3px $violet;
   }
 }
 
 @media (min-width: $desktop-width) {
   .intro {
-    padding: 40px 0;
-  }
-
-  .intro__img-container {
-    margin-bottom: 40px;
+    padding-top: 40px;
   }
 }

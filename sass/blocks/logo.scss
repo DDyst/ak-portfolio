@@ -10,11 +10,15 @@
   text-align: center;
   color: $pink;
   background: $violet;
+  cursor: default;
   user-select: none;
   &:not(&--current) {
-    transition: opacity 0.3s;
+    transition: all 0.5s;
+    cursor: pointer;
     &:hover {
-      opacity: 0.8;
+      letter-spacing: 2px;
+      color: darken($pink, 70%);
+      background: darken($violet, 3%);
     }
     &:active {
       opacity: 0.5;

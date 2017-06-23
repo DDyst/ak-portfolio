@@ -1,0 +1,142 @@
+.info {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.info__container {
+  @include layout-positioner;
+}
+
+.info__img-container {
+  display: none;
+}
+
+.info__img-container img {
+  @include image;
+}
+
+.info__text {
+  margin: 0;
+}
+
+.info__heading {
+  margin: 40px 0 16px 0;
+  padding-bottom: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  border-bottom: 1px solid darken($pink, 5%);
+  &:first-of-type {
+    margin-top: 30px;
+  }
+}
+
+.info__list {
+  @include list-clean;
+}
+
+.info__list-item {
+  &:not(:last-child) {
+    margin-bottom: 22px;
+  }
+}
+
+.info__date {
+  display: block;
+  margin-bottom: 5px;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.info__subtitle {
+  margin: 0 0 6px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  opacity: 0.65;
+  &--dark {
+    opacity: 0.85;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .info {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .info__introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info__img-container {
+    display: block;
+    width: 124px;
+    box-shadow: 0 0 2px $violet;
+  }
+
+  .info__text {
+    &--limited-width {
+      width: 78%;
+    }
+  }
+
+  .info__heading {
+    margin: 42px 0 18px 0;
+    padding-bottom: 8px;
+    font-size: 20px;
+    line-height: 30px;
+    &:first-of-type {
+      margin-top: 32px;
+    }
+  }
+
+  .info__list-item {
+    display: flex;
+    justify-content: space-between;
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .info__date {
+    width: 20%;
+    margin-right: 2%;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .info__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .info__desc {
+    width: 78%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .info__img-container {
+    width: 180px;
+    box-shadow: 0 0 3px $violet;
+  }
+
+  .info__heading {
+    margin: 46px 0 22px 0;
+    &:first-of-type {
+      margin-top: 34px;
+    }
+  }
+
+  .info__list-item {
+    &:not(:last-child) {
+      margin-bottom: 28px;
+    }
+  }
+}

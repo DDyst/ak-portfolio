@@ -1,0 +1,15 @@
+.page-footer {
+  padding: 22px 0;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    padding: 34px 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer {
+    padding: 46px 0;
+  }
+}

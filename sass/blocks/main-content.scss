@@ -1,0 +1,15 @@
+.main-content {
+  padding-top: 22px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-content {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-content {
+    padding-top: 40px;
+  }
+}
