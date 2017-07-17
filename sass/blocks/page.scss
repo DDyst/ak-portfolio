@@ -6,6 +6,12 @@
   font-family: "Open Sans", "Arial", sans-serif;
   color: $violet;
 	background-color: $pink;
+  &--flexible {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
 }
 
 @media (min-width: $tablet-width) {
