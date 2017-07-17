@@ -1,0 +1,16 @@
+.heading {
+  padding-bottom: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  border-bottom: 1px solid darken($pink, 7%);
+}
+
+@media (min-width: $tablet-width) {
+  .heading {
+    padding-bottom: 8px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

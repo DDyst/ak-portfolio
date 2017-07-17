@@ -13,8 +13,8 @@
     </header>
 
     <main class="main-content">
-      <div class="info">
-        <div class="info__container">
+      <div class="main-content__container">
+        <div class="info">
           <div class="info__introduction">
             <div class="info__img-container">
               <picture>
@@ -25,7 +25,7 @@
             <p class="info__text  info__text--limited-width">За меня всё скажут мои работы, и всё же пару слов о том, что я умею, и где меня этому научили:</p>
           </div>
           <div class="info__content">
-            <h2 class="info__heading">Образование</h2>
+            <h2 class="heading  info__heading">Образование</h2>
             <ul class="info__list">
               <li class="info__list-item">
                 <time class="info__date" datetime="2017">2017</time>
@@ -42,10 +42,12 @@
                 </div>
               </li>
             </ul>
-            <h2 class="info__heading">Опыт работы</h2>
+            <h2 class="heading  info__heading">Опыт работы</h2>
             <ul class="info__list">
               <li class="info__list-item">
-                <time class="info__date">Февраль&nbsp;2017 — Июнь&nbsp;2017</time>
+                <div class="info__date">
+                  <time datetime="2017-02">Февраль&nbsp;2017</time> — <time datetime="2017-06">Июнь&nbsp;2017</time>
+                </div>
                 <div class="info__desc">
                   <h3 class="info__subtitle">Медиапроект "Сфера"</h3>
                   <h4 class="info__subtitle  info__subtitle--dark">Редактор рубрики</h4>
@@ -53,7 +55,9 @@
                 </div>
               </li>
               <li class="info__list-item">
-                <time class="info__date">Февраль&nbsp;2017 — Май&nbsp;2017</time>
+                <div class="info__date">
+                  <time datetime="2017-02">Февраль&nbsp;2017</time> — <time datetime="2017-05">Май&nbsp;2017</time>
+                </div>
                 <div class="info__desc">
                   <h3 class="info__subtitle">Газета "Санкт-Петербургские ведомости"</h3>
                   <h4 class="info__subtitle  info__subtitle--dark">Внештатный корреспондент</h4>
@@ -61,7 +65,9 @@
                 </div>
               </li>
               <li class="info__list-item">
-                <time class="info__date">Июнь&nbsp;2016 — Декабрь&nbsp;2016</time>
+                <div class="info__date">
+                  <time datetime="2016-06">Июнь&nbsp;2016</time> — <time datetime="2016-12">Декабрь&nbsp;2016</time>
+                </div>
                 <div class="info__desc">
                   <h3 class="info__subtitle">НКО "Аксиодемия"</h3>
                   <h4 class="info__subtitle  info__subtitle--dark">Редактор</h4>
@@ -69,7 +75,9 @@
                 </div>
               </li>
               <li class="info__list-item">
-                <time class="info__date">Август&nbsp;2014 — Июнь&nbsp;2016</time>
+                <div class="info__date">
+                  <time datetime="2014-08">Август&nbsp;2014</time> — <time datetime="2016-06">Июнь&nbsp;2016</time>
+                </div>
                 <div class="info__desc">
                   <h3 class="info__subtitle">ООО "Линза"</h3>
                   <h4 class="info__subtitle  info__subtitle--dark">Копирайтер, редактор</h4>
@@ -87,7 +95,7 @@
         <nav class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__item"><a class="main-nav__link  main-nav__link--current">Обо мне</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Мои работы</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="portfolio.html">Мои работы</a></li>
           </ul>
         </nav>
       </div>

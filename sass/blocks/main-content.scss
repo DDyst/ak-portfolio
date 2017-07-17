@@ -2,6 +2,10 @@
   padding-top: 22px;
 }
 
+.main-content__container {
+  @include layout-positioner;
+}
+
 @media (min-width: $tablet-width) {
   .main-content {
     padding-top: 30px;

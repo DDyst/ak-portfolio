@@ -1,12 +1,3 @@
-.info {
-  font-size: 14px;
-  line-height: 22px;
-}
-
-.info__container {
-  @include layout-positioner;
-}
-
 .info__img-container {
   display: none;
 }
@@ -21,12 +12,6 @@
 
 .info__heading {
   margin: 40px 0 16px 0;
-  padding-bottom: 7px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  border-bottom: 1px solid darken($pink, 5%);
   &:first-of-type {
     margin-top: 30px;
   }
@@ -63,11 +48,6 @@
 }
 
 @media (min-width: $tablet-width) {
-  .info {
-    font-size: 18px;
-    line-height: 28px;
-  }
-
   .info__introduction {
     display: flex;
     justify-content: space-between;
@@ -88,9 +68,6 @@
 
   .info__heading {
     margin: 42px 0 18px 0;
-    padding-bottom: 8px;
-    font-size: 20px;
-    line-height: 30px;
     &:first-of-type {
       margin-top: 32px;
     }
@@ -136,7 +113,7 @@
 
   .info__list-item {
     &:not(:last-child) {
-      margin-bottom: 28px;
+      margin-bottom: 30px;
     }
   }
 }
