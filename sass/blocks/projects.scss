@@ -59,14 +59,30 @@
   &--space-between {
     justify-content: space-between;
   }
+  &--imageless {
+    display: block;
+    padding-left: 12px;
+    animation: slide-from-above 1s;
+  }
 }
 
 .projects__img-container img {
   @include image;
 }
 
+.projects__item-desc {
+  margin: 0 0 16px 0;
+}
+
 .projects__link {
   color: $violet;
+  &--complex {
+    display: block;
+    margin-bottom: 12px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
   &:hover {
     text-decoration: none;
     color: lighten($violet, 10%);
